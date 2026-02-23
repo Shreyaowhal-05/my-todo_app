@@ -19,7 +19,8 @@ for index, todo in enumerate(todos):
     if checkbox:
         todos.pop(index)
         functions.write_todo(todos)
-        del st.session_state[todo]
+        del st.session_state[key=f"todo_{index}"]
+        st.experimental_rerun()
 
 
 st.text_input(label="Enter a todo:",placeholder="Add new todo.....",
