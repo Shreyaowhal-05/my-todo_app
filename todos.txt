@@ -1,15 +1,4 @@
-make soup
-eat
-juice
-happy
-dance
-play football
-play chess
 play badminton
-make soup
 make maggie
-buy fries
-burger
-jumping
-todo list
-play badminton
+buy groceries
+buy vegetables
